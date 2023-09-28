@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
@@ -12,11 +13,15 @@ public class Player : MonoBehaviour
     private Vector2 lastMoveDirection;
     private bool facingLeft = true;
 
+    Scene scene;
+    public Memoria memoria;
+
     // Start is called before the first frame update
     void Start()
     {
         anim = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
+        scene = SceneManager.GetActiveScene();
     }
 
     // Update is called once per frame
@@ -27,6 +32,12 @@ public class Player : MonoBehaviour
         if (input.x < 0 && !facingLeft || input.x > 0 && facingLeft)
         {
             Flip();
+        }
+
+        if (Input.GetKeyDown(KeyCode.B) && scene.name != "QuartoA" && scene.name != "QuartoE")
+        {
+            memoria.profundo = 1;
+            SceneManager.LoadScene(1);
         }
     }
 
@@ -66,5 +77,33 @@ public class Player : MonoBehaviour
         scale.x *= -1;
         transform.localScale = scale;
         facingLeft = !facingLeft;
+    }
+
+    private void OnTriggerEnter2D(Collider2D other) 
+    {
+        if(other.gameObject.CompareTag("Buraco")) 
+        {
+            if (scene.name == "QuartoA")
+            {
+                SceneManager.LoadScene(Random.Range(2, 5));
+            }
+            else if (scene.name == "QuartoB" || scene.name == "QuartoC" || scene.name == "QuartoD")
+            {
+                memoria.profundo = memoria.profundo+1;
+                if (memoria.profundo >= 4)
+                {
+                    SceneManager.LoadScene(5);
+                }
+                else 
+                {
+                    SceneManager.LoadScene(Random.Range(2, 5));
+                }
+            }
+            else if (scene.name == "QuartoE")
+            {
+                memoria.profundo = 1;
+                SceneManager.LoadScene(1);
+            }
+        }
     }
 }
