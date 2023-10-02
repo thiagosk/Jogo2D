@@ -19,9 +19,9 @@ public class Player : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        anim = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
         scene = SceneManager.GetActiveScene();
+        anim = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -62,21 +62,20 @@ public class Player : MonoBehaviour
         input.Normalize();
     }
 
-    void Animate()
-    {
-        anim.SetFloat("MoveX", input.x);
-        anim.SetFloat("MoveY", input.y);
-        anim.SetFloat("MoveMagnitude", input.magnitude);
-        anim.SetFloat("LastMoveX", lastMoveDirection.x);
-        anim.SetFloat("LastMoveY", lastMoveDirection.y);
-    }
-
     void Flip()
     {
         Vector3 scale = transform.localScale;
         scale.x *= -1;
         transform.localScale = scale;
         facingLeft = !facingLeft;
+    }
+
+    void Animate(){
+        anim.SetFloat("MoveX",input.x);
+        anim.SetFloat("MoveY",input.y);
+        anim.SetFloat("MoveMagnitude",input.magnitude);
+        anim.SetFloat("LastMoveX",lastMoveDirection.x);
+        anim.SetFloat("LastMoveY",lastMoveDirection.y);
     }
 
     private void OnTriggerEnter2D(Collider2D other) 

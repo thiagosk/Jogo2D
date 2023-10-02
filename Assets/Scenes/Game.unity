@@ -261,8 +261,8 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
-    newSize: {x: 1, y: 1}
+    oldSize: {x: 2, y: 2}
+    newSize: {x: 0.4, y: 0.4}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
@@ -270,6 +270,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!95 &2052933520
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1793773895}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 5340f409bbf23ea4eaf1ac3c360c9745, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1001 &2750337274427773784
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -335,6 +356,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1545955172688110927, guid: 2c0450f2da9249841964e941fc2bf303, type: 3}
+      propertyPath: m_Size.x
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1545955172688110927, guid: 2c0450f2da9249841964e941fc2bf303, type: 3}
+      propertyPath: m_Size.y
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1545955172688110927, guid: 2c0450f2da9249841964e941fc2bf303, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 1240080504, guid: 270818e6e76b5cd4f9a62038befc5a92, type: 3}
+    - target: {fileID: 1545955172688110927, guid: 2c0450f2da9249841964e941fc2bf303, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3999426386584734986, guid: 2c0450f2da9249841964e941fc2bf303, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -389,6 +426,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 6035501304868846274, guid: 2c0450f2da9249841964e941fc2bf303, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2052933515}
+    - targetCorrespondingSourceObject: {fileID: 6035501304868846274, guid: 2c0450f2da9249841964e941fc2bf303, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2052933520}
   m_SourcePrefab: {fileID: 100100000, guid: 2c0450f2da9249841964e941fc2bf303, type: 3}
 --- !u!1001 &4498705345720244137
 PrefabInstance:
