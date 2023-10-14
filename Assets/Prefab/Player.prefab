@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 8365142321957211285}
   - component: {fileID: 4792950450579738140}
   - component: {fileID: 3146676472605880400}
-  - component: {fileID: 2433719963678183203}
   - component: {fileID: 8026899495522285852}
   - component: {fileID: 427984596643135411}
   m_Layer: 0
@@ -30,7 +29,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 84069943197525847}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -129,53 +128,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8164cbc36ecd3ae408f96203e30d3463, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
   memoria: {fileID: 11400000, guid: 908cdbe34b572f044a20f223d63694b0, type: 2}
---- !u!61 &2433719963678183203
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 84069943197525847}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 2, y: 2}
-    newSize: {x: 0.4, y: 0.4}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1}
-  m_EdgeRadius: 0
+  hearts: []
+  fullHeart: {fileID: -1001214615, guid: 26c089550587d934398fc99f085049ee, type: 3}
+  emptyHeart: {fileID: 1762866510, guid: 26c089550587d934398fc99f085049ee, type: 3}
+  coinTXT: {fileID: 0}
+  marcenaria: {fileID: 5798771957407473156, guid: 56b4c721e6ed9584992373db3671202c, type: 3}
+  upgradeCasa: {fileID: 0}
+  maxCasa: {fileID: 0}
 --- !u!61 &8026899495522285852
 BoxCollider2D:
   m_ObjectHideFlags: 0
