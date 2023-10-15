@@ -9,6 +9,7 @@ TagManager:
   - coin
   - marcenaria
   - portal
+  - purpleFire
   layers:
   - Default
   - TransparentFX

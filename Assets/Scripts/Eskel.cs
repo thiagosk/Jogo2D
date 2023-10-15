@@ -6,7 +6,7 @@ public class Eskel : MonoBehaviour
 {
     Rigidbody2D rb;
 
-    public float moveSpeed = 3f;
+    public float moveSpeed = 8f;
 
     private Transform target;
 
@@ -16,10 +16,10 @@ public class Eskel : MonoBehaviour
 
     public Memoria memoria;
 
-    private float distanceToShoot = 5f;
-    private float distanceToStop = 5f;
+    private float distanceToShoot = 6f;
+    private float distanceToStop = 6f;
 
-    private float fireRate = 1f;
+    private float fireRate = 0.8f;
     private float timeToFire;
 
     public Transform firingPoint;

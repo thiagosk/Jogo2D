@@ -6,7 +6,7 @@ public class Blob : MonoBehaviour
 {
     Rigidbody2D rb;
 
-    public float moveSpeed = 3f;
+    public float moveSpeed = 10f;
 
     private Transform target;
 

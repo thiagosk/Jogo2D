@@ -11,10 +11,10 @@ public class Player : MonoBehaviour
     private Rigidbody2D rb;
     private Vector2 input;
     private Vector2 lastMoveDirection;
-    private bool facingLeft = true;
 
     // Animacao
     Animator anim;
+    private bool facingLeft = true;
 
     // Cenas
     Scene scene;
@@ -162,6 +162,11 @@ public class Player : MonoBehaviour
         else if(other.gameObject.CompareTag("portal"))  {
             memoria.profundo = 1;
             SceneManager.LoadScene(1);
+        }
+
+        else if(other.gameObject.CompareTag("purpleFire"))  {
+            memoria.playerLife-=1;
+            Destroy(other.gameObject);   
         }
     }
 
