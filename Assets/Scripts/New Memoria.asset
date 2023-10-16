@@ -13,3 +13,8 @@ MonoBehaviour:
   m_Name: New Memoria
   m_EditorClassIdentifier: 
   profundo: 1
+  playerSpeed: 3
+  playerLife: 0
+  playerNumOfHearts: 3
+  coin: 90
+  casaNivel: 1

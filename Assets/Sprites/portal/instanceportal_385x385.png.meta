@@ -1,0 +1,4782 @@
+fileFormatVersion: 2
+guid: 62e19fdb31581964d8dc47ec4a560956
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: instanceportal_385x385_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5390
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75e25057ba0fbf349a16b84071ec2735
+      internalID: 1353285954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_1
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 5390
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e592533f988a69140a56b99ffe5eef5e
+      internalID: -577215832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_2
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 5390
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa09f183d9931b84d80030fb2c692513
+      internalID: 2023548461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_3
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 5390
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c965833cc9a81b043b2967b8230f6bba
+      internalID: 207380629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_4
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 5390
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cadd87343d393a44b651049d9936b2d
+      internalID: -27682112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_5
+      rect:
+        serializedVersion: 2
+        x: 1925
+        y: 5390
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42d0d766bb3b4b84caf3c6f610be3c34
+      internalID: -1003101502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_6
+      rect:
+        serializedVersion: 2
+        x: 2310
+        y: 5390
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f98e92d6a87b82418ffee166217c63f
+      internalID: -1101794851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_7
+      rect:
+        serializedVersion: 2
+        x: 2695
+        y: 5390
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee3edc99fe284a147ba3f303d98f1cbe
+      internalID: -1901371145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_8
+      rect:
+        serializedVersion: 2
+        x: 3080
+        y: 5390
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9f3c2a963a482943b6d32ac063740df
+      internalID: -604636901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_9
+      rect:
+        serializedVersion: 2
+        x: 3465
+        y: 5390
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: deee309581abe3044be195096e4852e7
+      internalID: -760557773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_10
+      rect:
+        serializedVersion: 2
+        x: 3850
+        y: 5390
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c50db3066bfef714a8bd078f391033a7
+      internalID: 527725931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_11
+      rect:
+        serializedVersion: 2
+        x: 4235
+        y: 5390
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d65364e1723d7fe429aa59974f136bfa
+      internalID: -1936458752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_12
+      rect:
+        serializedVersion: 2
+        x: 4620
+        y: 5390
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d48f0f88513c7b40849c6b288d01445
+      internalID: 781555838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_13
+      rect:
+        serializedVersion: 2
+        x: 5005
+        y: 5390
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 206510bbcdf4adf4f8a4f83e9eb8adb2
+      internalID: -1535597340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_14
+      rect:
+        serializedVersion: 2
+        x: 5390
+        y: 5390
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed1b4487f25ab9a49b55b539759999fa
+      internalID: 1346444075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5005
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f010eeb8665ab10469d4e94aab7e83a0
+      internalID: -1984370255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_16
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 5005
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e13476fa60764e4e871c28e2ef6c614
+      internalID: 596109491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_17
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 5005
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02e6b201df79323478349a2398d92d34
+      internalID: 1022275631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_18
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 5005
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f3593c566f081c449a062aeab7935d2
+      internalID: 1940453045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_19
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 5005
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72e97fef6ac7379459a54ea26a61432d
+      internalID: 332604570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_20
+      rect:
+        serializedVersion: 2
+        x: 1925
+        y: 5005
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e6d83c16da9e764a8b57f0deddc104c
+      internalID: -964322059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_21
+      rect:
+        serializedVersion: 2
+        x: 2310
+        y: 5005
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5250801dc5e87f74dad7e821860e695b
+      internalID: 457892812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_22
+      rect:
+        serializedVersion: 2
+        x: 2695
+        y: 5005
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 841317b6f160c8d489105049737deaf8
+      internalID: 1189682048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_23
+      rect:
+        serializedVersion: 2
+        x: 3080
+        y: 5005
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b161c451a34332f4689472ed11cfd88e
+      internalID: 2001020394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_24
+      rect:
+        serializedVersion: 2
+        x: 3465
+        y: 5005
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4883753b7da8dfe47a9398f98f1767cb
+      internalID: -917143976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_25
+      rect:
+        serializedVersion: 2
+        x: 3850
+        y: 5005
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5fc3958c2d4e774fabd28e3e4b87222
+      internalID: -736108357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_26
+      rect:
+        serializedVersion: 2
+        x: 4235
+        y: 5005
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d441511cd89e0b541bdaab3b9dc159f5
+      internalID: -701072456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_27
+      rect:
+        serializedVersion: 2
+        x: 4620
+        y: 5005
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 554973900ce6cbd44a19f340e7bb5bcb
+      internalID: -1055042725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_28
+      rect:
+        serializedVersion: 2
+        x: 5005
+        y: 5005
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d86e718e397be524789e6430a5ac1b1a
+      internalID: -1554506709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_29
+      rect:
+        serializedVersion: 2
+        x: 5390
+        y: 5005
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae5fa75191798ae448057c5f8a7baf28
+      internalID: 1411131735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4620
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 693f5828ef877b543a564517367fb960
+      internalID: -1452351868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_31
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 4620
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f05b2e23a73ffef43afaf568bcc7504e
+      internalID: 11483077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_32
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 4620
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa74c8ab758ba754385c9246be81122b
+      internalID: 1898067856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_33
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 4620
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9c46f80ba6391146aa1c4b92423509a
+      internalID: -51920604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_34
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 4620
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13c12b449c3c40a4ea272f3d047d7e65
+      internalID: 263473858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_35
+      rect:
+        serializedVersion: 2
+        x: 1925
+        y: 4620
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16902145db0406643bab71e817849809
+      internalID: -2070336202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_36
+      rect:
+        serializedVersion: 2
+        x: 2310
+        y: 4620
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef662b167d81447438f181d1cc6d7443
+      internalID: 2060752554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_37
+      rect:
+        serializedVersion: 2
+        x: 2695
+        y: 4620
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1069446d7146c834c8a4f67beff51a9a
+      internalID: -102493384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_38
+      rect:
+        serializedVersion: 2
+        x: 3080
+        y: 4620
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70f47f5adf6a75b4b93d318e3f3aa99b
+      internalID: 1314325634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_39
+      rect:
+        serializedVersion: 2
+        x: 3465
+        y: 4620
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d05fab16ef159c948b87eec7d70c02cd
+      internalID: -1793434550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_40
+      rect:
+        serializedVersion: 2
+        x: 3850
+        y: 4620
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1952743fdc73d44a8070bfb5f0bc466
+      internalID: -408758025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_41
+      rect:
+        serializedVersion: 2
+        x: 4235
+        y: 4620
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc6f06e207744544bbff78155abd3170
+      internalID: 72487166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_42
+      rect:
+        serializedVersion: 2
+        x: 4620
+        y: 4620
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6e6e25d99dbcc54ea128807d0892949
+      internalID: 1050095566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_43
+      rect:
+        serializedVersion: 2
+        x: 5005
+        y: 4620
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d30f1983199c3294183a77bac3be8e38
+      internalID: 1102706281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_44
+      rect:
+        serializedVersion: 2
+        x: 5390
+        y: 4620
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d0e6b4b6acc1d7429de711821c75834
+      internalID: -835130460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4235
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a155342cf96e644581edaa0c8881d56
+      internalID: -429850399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_46
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 4235
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2a050c9ca12e684b80fd7fb454c0b4d
+      internalID: -1482008755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_47
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 4235
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfe45728c14671e4f88dbc581b8b983d
+      internalID: -740702841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_48
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 4235
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ac40e7635c60914589c7857d35b85e8
+      internalID: -1292098705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_49
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 4235
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d481bde61e9d004eb3178589bf5e55e
+      internalID: 367886476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_50
+      rect:
+        serializedVersion: 2
+        x: 1925
+        y: 4235
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fa84fbd076ec90489ec0046fccb18ce
+      internalID: -108802062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_51
+      rect:
+        serializedVersion: 2
+        x: 2310
+        y: 4235
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 223f6e4ff2a602b4ab96be82d2533ce4
+      internalID: 325555970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_52
+      rect:
+        serializedVersion: 2
+        x: 2695
+        y: 4235
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71c6f8ba47c8ac54d83bda7a02e11b88
+      internalID: 924845798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_53
+      rect:
+        serializedVersion: 2
+        x: 3080
+        y: 4235
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38e3783359094154e90ce01a1786cbed
+      internalID: 1098242805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_54
+      rect:
+        serializedVersion: 2
+        x: 3465
+        y: 4235
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2808d017dc3df3a4488f8d20ab249ff0
+      internalID: -203190631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_55
+      rect:
+        serializedVersion: 2
+        x: 3850
+        y: 4235
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fb01272f30b0624da0e795b2596138f
+      internalID: -680817230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_56
+      rect:
+        serializedVersion: 2
+        x: 4235
+        y: 4235
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7160aa2a60cce74ebe7d1f042e90740
+      internalID: -129837285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_57
+      rect:
+        serializedVersion: 2
+        x: 4620
+        y: 4235
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d0f26814be67d6408c27d412ac0ae34
+      internalID: -130923505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_58
+      rect:
+        serializedVersion: 2
+        x: 5005
+        y: 4235
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5344cda571281f419d49d172fdb5bc0
+      internalID: -1675575141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_59
+      rect:
+        serializedVersion: 2
+        x: 5390
+        y: 4235
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e745c0c5a697dd7419de766d8dc65113
+      internalID: -896775695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3850
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cddac522768861439e4bf7ddb0f256a
+      internalID: -18572633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_61
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 3850
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0209f892fc44ed4ebe3d4694012dd92
+      internalID: -1840935354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_62
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 3850
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c188b069efb5e64289154fcadf2262a
+      internalID: 1008741272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_63
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 3850
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcdb4088e314c4f44be25ce2891c279f
+      internalID: -1347125935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_64
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 3850
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66ab7469cd66edb4c828967b9aa10b83
+      internalID: 405742759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_65
+      rect:
+        serializedVersion: 2
+        x: 1925
+        y: 3850
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d54c846b19ec7143b7172d33a09e64b
+      internalID: 1544330793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_66
+      rect:
+        serializedVersion: 2
+        x: 2310
+        y: 3850
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1a4382e57bc59f48a3d5f1bb8f55fb9
+      internalID: 54801327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_67
+      rect:
+        serializedVersion: 2
+        x: 2695
+        y: 3850
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdc13d00105e36543af16312e4923c2b
+      internalID: 880055995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_68
+      rect:
+        serializedVersion: 2
+        x: 3080
+        y: 3850
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e84215c0cf175440932f4a83f621e17
+      internalID: -1134476298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_69
+      rect:
+        serializedVersion: 2
+        x: 3465
+        y: 3850
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe673bb533d013d44bc85f4680c54b0e
+      internalID: 1337940380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_70
+      rect:
+        serializedVersion: 2
+        x: 3850
+        y: 3850
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a4799c2f7fca074cbda87486d4019dc
+      internalID: -679236030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_71
+      rect:
+        serializedVersion: 2
+        x: 4235
+        y: 3850
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c3186bd7b4b9c74e94496f78037eb67
+      internalID: -496107214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_72
+      rect:
+        serializedVersion: 2
+        x: 4620
+        y: 3850
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e5ed649b9d684e49adde2e80bf20a38
+      internalID: 1779596131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_73
+      rect:
+        serializedVersion: 2
+        x: 5005
+        y: 3850
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cb128fbb9431ce4ea007fd5efdfc269
+      internalID: -908767333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_74
+      rect:
+        serializedVersion: 2
+        x: 5390
+        y: 3850
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04c3f4cb28245594c8b017bba76c67b5
+      internalID: 707702052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_75
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3465
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13f26dd3a89736447a8405a56e25964a
+      internalID: 1123213786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_76
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 3465
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5407b40e4ae80084f97154300d60e2ad
+      internalID: -569272138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_77
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 3465
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d338441681dd34e4f9781bddcd5cc789
+      internalID: 204847286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_78
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 3465
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57d1e4d2a8b60074788c63abe157ecc7
+      internalID: -1378687418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_79
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 3465
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73fc9ac4f035c1b4c8a743ec22c1d7c8
+      internalID: -2042460486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_80
+      rect:
+        serializedVersion: 2
+        x: 1925
+        y: 3465
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1007892781e57c7479e155d7318a147a
+      internalID: -767558691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_81
+      rect:
+        serializedVersion: 2
+        x: 2310
+        y: 3465
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5baa921d5b2bd744697d846e387e6279
+      internalID: -774568007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_82
+      rect:
+        serializedVersion: 2
+        x: 2695
+        y: 3465
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71740cb4944938f44a91c831c5414fd6
+      internalID: 1033505050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_83
+      rect:
+        serializedVersion: 2
+        x: 3080
+        y: 3465
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f5540457287b3449b353cd1bc114e9d
+      internalID: -494122227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_84
+      rect:
+        serializedVersion: 2
+        x: 3465
+        y: 3465
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b54000f939f0834993615fa60df0da3
+      internalID: -655016986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_85
+      rect:
+        serializedVersion: 2
+        x: 3850
+        y: 3465
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eca33285f10fd2e40aace457f5cf6691
+      internalID: 1581050414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_86
+      rect:
+        serializedVersion: 2
+        x: 4235
+        y: 3465
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9912600207f092f44b1cf46b120a0a43
+      internalID: -1181407136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_87
+      rect:
+        serializedVersion: 2
+        x: 4620
+        y: 3465
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ac5837a1ef6dd144a39ef2db8567575
+      internalID: 1203255478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_88
+      rect:
+        serializedVersion: 2
+        x: 5005
+        y: 3465
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afb1c70ce8c0e4840ae5ef748aafcc52
+      internalID: -1593399020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_89
+      rect:
+        serializedVersion: 2
+        x: 5390
+        y: 3465
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 993c10a8ebdc8ae488614eb67507ef70
+      internalID: 579483548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3080
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41db0ede4d239264ab85ae9d4b9cff49
+      internalID: 924837014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_91
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 3080
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f530ac82c4f34844a2d00c80f879e32
+      internalID: -1346513565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_92
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 3080
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c822580675617ca408b9343a62ee05f1
+      internalID: 1608546597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_93
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 3080
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f58d85e1329076e4c9d4bb7e35314a9a
+      internalID: -1643588241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_94
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 3080
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28ebfcc4dad0f64428ac40751099ce6f
+      internalID: 1621418420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_95
+      rect:
+        serializedVersion: 2
+        x: 1925
+        y: 3080
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fcdccd3fca79dd41a0f2043d5f127ec
+      internalID: 984365318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_96
+      rect:
+        serializedVersion: 2
+        x: 2310
+        y: 3080
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26fe3bf3729b23a4db37baaf53159bdf
+      internalID: 501345537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_97
+      rect:
+        serializedVersion: 2
+        x: 2695
+        y: 3080
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57cc61060f7b0b64d9acd2d2c48e007b
+      internalID: -1070382308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_98
+      rect:
+        serializedVersion: 2
+        x: 3080
+        y: 3080
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed9d4d2a2cf62de4cb2dea1e5ba1bd61
+      internalID: -1991746851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_99
+      rect:
+        serializedVersion: 2
+        x: 3465
+        y: 3080
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5114269af76b4fb40bd1fc8a1a213896
+      internalID: 2077079759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_100
+      rect:
+        serializedVersion: 2
+        x: 3850
+        y: 3080
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc4bf38ea575f0445a82ca4c577a1458
+      internalID: -123527398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_101
+      rect:
+        serializedVersion: 2
+        x: 4235
+        y: 3080
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa4aa3d4c6d2f7840bf35e1d8e6cd2cd
+      internalID: 1597934566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_102
+      rect:
+        serializedVersion: 2
+        x: 4620
+        y: 3080
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6aa2975c48df2234bb71eda296f59ba6
+      internalID: 546232940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_103
+      rect:
+        serializedVersion: 2
+        x: 5005
+        y: 3080
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 599a6fd2707b75048bee78312f466e75
+      internalID: 366342300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_104
+      rect:
+        serializedVersion: 2
+        x: 5390
+        y: 3080
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f838e028aef9ed0469d3d1f3240a080a
+      internalID: -376869915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_105
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2695
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5c1b44c3e0e2ac4a862a557285cbeb5
+      internalID: 1270135728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_106
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 2695
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 006aa17755a56b5498ff49a672e1868d
+      internalID: -6971809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_107
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 2695
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e11ab1cb08bf4f488e92d6eb5f5395a
+      internalID: 1398655886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_108
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 2695
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 607fb72429467e6459769c2c5ab290b8
+      internalID: -1325714624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_109
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 2695
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18152deaf7a799e40ae7fdf7c6de6627
+      internalID: -360099826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_110
+      rect:
+        serializedVersion: 2
+        x: 1925
+        y: 2695
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 839388300b575ea47ae09ceed6acde23
+      internalID: -937558578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_111
+      rect:
+        serializedVersion: 2
+        x: 2310
+        y: 2695
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91c688c360b4a2541995c19ad0344be4
+      internalID: -192230285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_112
+      rect:
+        serializedVersion: 2
+        x: 2695
+        y: 2695
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 582e8c15e909ada46b7bbbeb0278bba6
+      internalID: -1990931071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_113
+      rect:
+        serializedVersion: 2
+        x: 3080
+        y: 2695
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96ee6c02da3a6b14aac96f85fec0496d
+      internalID: -653665819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_114
+      rect:
+        serializedVersion: 2
+        x: 3465
+        y: 2695
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01b78b04ddc45504bb11132455b7233e
+      internalID: -1032542401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_115
+      rect:
+        serializedVersion: 2
+        x: 3850
+        y: 2695
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2d9e79e96ffdcf4a9f7104d02c364de
+      internalID: 1941234084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_116
+      rect:
+        serializedVersion: 2
+        x: 4235
+        y: 2695
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b82892125e3f394db1a3118f09808df
+      internalID: -1126714994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_117
+      rect:
+        serializedVersion: 2
+        x: 4620
+        y: 2695
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 042e904fbd84f184a8ac23e0b3f9ae5a
+      internalID: 407930474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_118
+      rect:
+        serializedVersion: 2
+        x: 5005
+        y: 2695
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6a5fd81408ce96458928da969e3b7d5
+      internalID: -849487318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_119
+      rect:
+        serializedVersion: 2
+        x: 5390
+        y: 2695
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d07ddb1f4e5579343986fb75790c7ac8
+      internalID: -1322137435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_120
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2310
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d04424a1918c0b844955708719869098
+      internalID: 1904040965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_121
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 2310
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e285ac0f12680b4a9f220b705ffe5dd
+      internalID: 1525938624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_122
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 2310
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1a938fa5b275af4dbeaf5f06901bdae
+      internalID: 1060385861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_123
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 2310
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5882395d9f59c945807348556d9b455
+      internalID: -1493888394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_124
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 2310
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e08391597d834e34f844d9cc2bc5f960
+      internalID: -1962837560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_125
+      rect:
+        serializedVersion: 2
+        x: 1925
+        y: 2310
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f04671b6c0d8b7c46939240c77b81cfe
+      internalID: -159951642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_126
+      rect:
+        serializedVersion: 2
+        x: 2310
+        y: 2310
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bbb3c5f9fd5cf54ab662d8be872c817
+      internalID: -147838978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_127
+      rect:
+        serializedVersion: 2
+        x: 2695
+        y: 2310
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1baf3500d8cf2ff4d9c6f2b940e3dff3
+      internalID: -1726901683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_128
+      rect:
+        serializedVersion: 2
+        x: 3080
+        y: 2310
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43d4d6684a78aaf498516e134528206c
+      internalID: 1700882721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_129
+      rect:
+        serializedVersion: 2
+        x: 3465
+        y: 2310
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9867358f7007654478d21a7d1ba125d0
+      internalID: -1045624616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_130
+      rect:
+        serializedVersion: 2
+        x: 3850
+        y: 2310
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c4130f0b52363a409962812548bc5ff
+      internalID: 1374482005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_131
+      rect:
+        serializedVersion: 2
+        x: 4235
+        y: 2310
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17d04d03434ddd2459131ece98062b5a
+      internalID: -1161548695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_132
+      rect:
+        serializedVersion: 2
+        x: 4620
+        y: 2310
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78bb67e7415f6ef45aaa9b7e01dd800f
+      internalID: 631089918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_133
+      rect:
+        serializedVersion: 2
+        x: 5005
+        y: 2310
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6393af20f89c9634bba6d24960c6ebd9
+      internalID: 1535347336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_134
+      rect:
+        serializedVersion: 2
+        x: 5390
+        y: 2310
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2149d214ae337d4a9b8c5aa5db4086b
+      internalID: 1115435554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_135
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1925
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d421567778ff9c041be61d069a36ff54
+      internalID: 298427474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_136
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 1925
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70adc116b8239224796e6e15aaafba96
+      internalID: -1266774031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_137
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 1925
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55c66a6c097f00a429363098cfc465e2
+      internalID: 1531165359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_138
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 1925
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39311c22f37e54e4eba7b7a239cbd406
+      internalID: 610510093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_139
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 1925
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59cb2523407aed849aa299d207901e5c
+      internalID: 1747830184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_140
+      rect:
+        serializedVersion: 2
+        x: 1925
+        y: 1925
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e70fca96915656c48b2343d39d222aaa
+      internalID: -1508858218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_141
+      rect:
+        serializedVersion: 2
+        x: 2310
+        y: 1925
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17ecec2cd8e9c394d9fd1494b636651e
+      internalID: -704554398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_142
+      rect:
+        serializedVersion: 2
+        x: 2695
+        y: 1925
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b96b0d0c0743c5429fe93b0670853e4
+      internalID: -721735915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_143
+      rect:
+        serializedVersion: 2
+        x: 3080
+        y: 1925
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 058e606129448d64caf6a9cd679881c4
+      internalID: -1283110712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_144
+      rect:
+        serializedVersion: 2
+        x: 3465
+        y: 1925
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66564b2049b093e4486e67ac0d0dd847
+      internalID: -1354438738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_145
+      rect:
+        serializedVersion: 2
+        x: 3850
+        y: 1925
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3478c7a4e1b3fc49aee294ac7c4d7fc
+      internalID: -2128811774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_146
+      rect:
+        serializedVersion: 2
+        x: 4235
+        y: 1925
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34ed781903b201e41899c145f5a7ef03
+      internalID: 1132560061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_147
+      rect:
+        serializedVersion: 2
+        x: 4620
+        y: 1925
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75d525601ae452f44b9635d1ab3d5522
+      internalID: 1823119172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_148
+      rect:
+        serializedVersion: 2
+        x: 5005
+        y: 1925
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15cd0dbee88391b41b6af948c0611417
+      internalID: 652724482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_149
+      rect:
+        serializedVersion: 2
+        x: 5390
+        y: 1925
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2703517e0b7cced4ca82ea687732c076
+      internalID: 962045553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_150
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1540
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83d841a9f71682e41af387982125f391
+      internalID: -204569472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_151
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 1540
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a5335b763a8fac47972cacdfe07ce92
+      internalID: -56034689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_152
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 1540
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e43a853766b60948a399e7af8e88303
+      internalID: 221296448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_153
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 1540
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d4328c485d42ac4783cbcfa13d2bb7f
+      internalID: 607881432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_154
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 1540
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b22241e7b692d04892c266975d627a7
+      internalID: 479451432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_155
+      rect:
+        serializedVersion: 2
+        x: 1925
+        y: 1540
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4036d34948fdcab4581c74383778a4a6
+      internalID: 2023256834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_156
+      rect:
+        serializedVersion: 2
+        x: 2310
+        y: 1540
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd8ee416ade72bc4d98a21e28001b4f8
+      internalID: 1585515535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_157
+      rect:
+        serializedVersion: 2
+        x: 2695
+        y: 1540
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f307c3e273bd7784b934d34f34baccd7
+      internalID: 1295063712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_158
+      rect:
+        serializedVersion: 2
+        x: 3080
+        y: 1540
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee42bde477d4855418cbb8c5f5a0c266
+      internalID: 1466879395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_159
+      rect:
+        serializedVersion: 2
+        x: 3465
+        y: 1540
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f00df90c49d048e46955e8d630df2da3
+      internalID: -2097019046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_160
+      rect:
+        serializedVersion: 2
+        x: 3850
+        y: 1540
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fcd783f811f7ca499dc36e0e79c6a71
+      internalID: 1162769333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_161
+      rect:
+        serializedVersion: 2
+        x: 4235
+        y: 1540
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81a02e8694b21e341916e90614a19a33
+      internalID: -1013795075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_162
+      rect:
+        serializedVersion: 2
+        x: 4620
+        y: 1540
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71ae056b32c7bbd4aa59259d12cb1d4e
+      internalID: 1634032763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_163
+      rect:
+        serializedVersion: 2
+        x: 5005
+        y: 1540
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20af37331b748a34bb40a793aa73d1a1
+      internalID: -951916754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_164
+      rect:
+        serializedVersion: 2
+        x: 5390
+        y: 1540
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efe3fb3f4710c1f4891b9211f5f94c33
+      internalID: 807858965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_165
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1155
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b36da4a4b3a0a64280b9ea46490c312
+      internalID: -1730665326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_166
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 1155
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df6e0058b43a74d418a779d5d5814035
+      internalID: -1096213582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_167
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 1155
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eef43add7b2ee944a0a88becf3c7274
+      internalID: -293628096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_168
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 1155
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91cbb1a327f55cc4cb79a15fc344ccd8
+      internalID: -2057270345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_169
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 1155
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8936e7e782ae194baad9bf23731a9e3
+      internalID: 704234400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_170
+      rect:
+        serializedVersion: 2
+        x: 1925
+        y: 1155
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d426be1bc2ce63d42997e03dc49a8a53
+      internalID: 997389755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_171
+      rect:
+        serializedVersion: 2
+        x: 2310
+        y: 1155
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 460c30c92a8effb4d96319935fc8907c
+      internalID: 1998773042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_172
+      rect:
+        serializedVersion: 2
+        x: 2695
+        y: 1155
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8526da2a75f4f754cb5187f66198a44e
+      internalID: 1125051973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_173
+      rect:
+        serializedVersion: 2
+        x: 3080
+        y: 1155
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7295622c483777c4c881e5848734e901
+      internalID: -1863321845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_174
+      rect:
+        serializedVersion: 2
+        x: 3465
+        y: 1155
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b178538563a006147bc6cc6c2f4e0c58
+      internalID: 1385812360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_175
+      rect:
+        serializedVersion: 2
+        x: 3850
+        y: 1155
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 692f5745a56f05846a2a06806e601be7
+      internalID: 259492556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_176
+      rect:
+        serializedVersion: 2
+        x: 4235
+        y: 1155
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2218d7f832b47474aac4b82db5b83448
+      internalID: -903138568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_177
+      rect:
+        serializedVersion: 2
+        x: 4620
+        y: 1155
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b07fad3c3a77bfd41aaf59730a07e7b0
+      internalID: 1157866329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_178
+      rect:
+        serializedVersion: 2
+        x: 5005
+        y: 1155
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23ac49b24d7602349a6e7df11d0894fc
+      internalID: -223387662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_179
+      rect:
+        serializedVersion: 2
+        x: 5390
+        y: 1155
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40c2fd33312242249ad4ebb093888885
+      internalID: 2111859347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_180
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 770
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab080fe29d8b9bf4ebeb9a8ac9ff88a8
+      internalID: -1900696511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_181
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 770
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc4297084dba381419c0ca944195ed4b
+      internalID: 918302129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_182
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 770
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f85620a00b0ad1f4f89298a295cb2776
+      internalID: -185673823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_183
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 770
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9571ca517323993478c74ea4e5cc1811
+      internalID: -1236822921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_184
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 770
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98be52d32afba124986352c8f76b3060
+      internalID: -736299259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_185
+      rect:
+        serializedVersion: 2
+        x: 1925
+        y: 770
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b93514a49ae174f45a021608d4098c5b
+      internalID: -1434239534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_186
+      rect:
+        serializedVersion: 2
+        x: 2310
+        y: 770
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75e4dda8781f3a843a5102531579d23e
+      internalID: 403295618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_187
+      rect:
+        serializedVersion: 2
+        x: 2695
+        y: 770
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66c258300c68a854b8e2edf32cf1fec5
+      internalID: 815142331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_188
+      rect:
+        serializedVersion: 2
+        x: 3080
+        y: 770
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3158d8c90ebbbed4f86b66e5cf98a5be
+      internalID: 1757322920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_189
+      rect:
+        serializedVersion: 2
+        x: 3465
+        y: 770
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 986140ee9dbc9864996806fc422a1910
+      internalID: -1076614075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_190
+      rect:
+        serializedVersion: 2
+        x: 3850
+        y: 770
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3ea2a0e7da822f42891b357907bdb88
+      internalID: 1638414829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_191
+      rect:
+        serializedVersion: 2
+        x: 4235
+        y: 770
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5228039beecda1349b5093131a89e5a8
+      internalID: -1607039341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_192
+      rect:
+        serializedVersion: 2
+        x: 4620
+        y: 770
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aca513a0a71e3f54dae822cc4d611607
+      internalID: -1887820379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_193
+      rect:
+        serializedVersion: 2
+        x: 5005
+        y: 770
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b4a229d5abad37408f73485cdc1d05c
+      internalID: -1611269771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_194
+      rect:
+        serializedVersion: 2
+        x: 5390
+        y: 770
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 640dd200ba36abe4090ac57bd86a2c99
+      internalID: -448178384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_195
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 385
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c98997116f82ec43a543529617d9725
+      internalID: -381051876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_196
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 385
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfa7e5428c252d94fb013a130695737d
+      internalID: -934856977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_197
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 385
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76d98bb73aa2c57408b6b8d0626812b5
+      internalID: -856778882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_198
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 385
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 001f5f4b4aabf94418769df83923ccf5
+      internalID: -105856318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_199
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 385
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 409231b40562cfd448716a3d3ba96484
+      internalID: -192135965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_200
+      rect:
+        serializedVersion: 2
+        x: 1925
+        y: 385
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a563fadd4d73ac4a8e55fa9e12e3feb
+      internalID: 1851620881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_201
+      rect:
+        serializedVersion: 2
+        x: 2310
+        y: 385
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca48742af3024ac4b9bf2e265bf38e09
+      internalID: 129071673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_202
+      rect:
+        serializedVersion: 2
+        x: 2695
+        y: 385
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cb38503b6d017340ace8c0e49779458
+      internalID: 406197306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_203
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9d5e38f42e7e10459937b185ffaa7f0
+      internalID: 322348012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_204
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 0
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89c6556cbb2f9e84a8adb8e25e9e1f84
+      internalID: 406626604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_205
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 0
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a8acd995181ab4418d2af48260824ea
+      internalID: 189694787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_206
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 0
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4afe6ca4563041478c639c16199bc7f
+      internalID: -1508856561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_207
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 0
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 849efa46800043849a16070164da3729
+      internalID: 893440051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_208
+      rect:
+        serializedVersion: 2
+        x: 1925
+        y: 0
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d3dba428b17c60489bb7383297f8d90
+      internalID: -209036745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_209
+      rect:
+        serializedVersion: 2
+        x: 2310
+        y: 0
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ed4a5a2c853bfa4692a734dd02221d6
+      internalID: -1650159494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: instanceportal_385x385_210
+      rect:
+        serializedVersion: 2
+        x: 2695
+        y: 0
+        width: 385
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dbe29bf6d166de43a0dcc695df49583
+      internalID: -189608420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      instanceportal_385x385_0: 1353285954
+      instanceportal_385x385_1: -577215832
+      instanceportal_385x385_10: 527725931
+      instanceportal_385x385_100: -123527398
+      instanceportal_385x385_101: 1597934566
+      instanceportal_385x385_102: 546232940
+      instanceportal_385x385_103: 366342300
+      instanceportal_385x385_104: -376869915
+      instanceportal_385x385_105: 1270135728
+      instanceportal_385x385_106: -6971809
+      instanceportal_385x385_107: 1398655886
+      instanceportal_385x385_108: -1325714624
+      instanceportal_385x385_109: -360099826
+      instanceportal_385x385_11: -1936458752
+      instanceportal_385x385_110: -937558578
+      instanceportal_385x385_111: -192230285
+      instanceportal_385x385_112: -1990931071
+      instanceportal_385x385_113: -653665819
+      instanceportal_385x385_114: -1032542401
+      instanceportal_385x385_115: 1941234084
+      instanceportal_385x385_116: -1126714994
+      instanceportal_385x385_117: 407930474
+      instanceportal_385x385_118: -849487318
+      instanceportal_385x385_119: -1322137435
+      instanceportal_385x385_12: 781555838
+      instanceportal_385x385_120: 1904040965
+      instanceportal_385x385_121: 1525938624
+      instanceportal_385x385_122: 1060385861
+      instanceportal_385x385_123: -1493888394
+      instanceportal_385x385_124: -1962837560
+      instanceportal_385x385_125: -159951642
+      instanceportal_385x385_126: -147838978
+      instanceportal_385x385_127: -1726901683
+      instanceportal_385x385_128: 1700882721
+      instanceportal_385x385_129: -1045624616
+      instanceportal_385x385_13: -1535597340
+      instanceportal_385x385_130: 1374482005
+      instanceportal_385x385_131: -1161548695
+      instanceportal_385x385_132: 631089918
+      instanceportal_385x385_133: 1535347336
+      instanceportal_385x385_134: 1115435554
+      instanceportal_385x385_135: 298427474
+      instanceportal_385x385_136: -1266774031
+      instanceportal_385x385_137: 1531165359
+      instanceportal_385x385_138: 610510093
+      instanceportal_385x385_139: 1747830184
+      instanceportal_385x385_14: 1346444075
+      instanceportal_385x385_140: -1508858218
+      instanceportal_385x385_141: -704554398
+      instanceportal_385x385_142: -721735915
+      instanceportal_385x385_143: -1283110712
+      instanceportal_385x385_144: -1354438738
+      instanceportal_385x385_145: -2128811774
+      instanceportal_385x385_146: 1132560061
+      instanceportal_385x385_147: 1823119172
+      instanceportal_385x385_148: 652724482
+      instanceportal_385x385_149: 962045553
+      instanceportal_385x385_15: -1984370255
+      instanceportal_385x385_150: -204569472
+      instanceportal_385x385_151: -56034689
+      instanceportal_385x385_152: 221296448
+      instanceportal_385x385_153: 607881432
+      instanceportal_385x385_154: 479451432
+      instanceportal_385x385_155: 2023256834
+      instanceportal_385x385_156: 1585515535
+      instanceportal_385x385_157: 1295063712
+      instanceportal_385x385_158: 1466879395
+      instanceportal_385x385_159: -2097019046
+      instanceportal_385x385_16: 596109491
+      instanceportal_385x385_160: 1162769333
+      instanceportal_385x385_161: -1013795075
+      instanceportal_385x385_162: 1634032763
+      instanceportal_385x385_163: -951916754
+      instanceportal_385x385_164: 807858965
+      instanceportal_385x385_165: -1730665326
+      instanceportal_385x385_166: -1096213582
+      instanceportal_385x385_167: -293628096
+      instanceportal_385x385_168: -2057270345
+      instanceportal_385x385_169: 704234400
+      instanceportal_385x385_17: 1022275631
+      instanceportal_385x385_170: 997389755
+      instanceportal_385x385_171: 1998773042
+      instanceportal_385x385_172: 1125051973
+      instanceportal_385x385_173: -1863321845
+      instanceportal_385x385_174: 1385812360
+      instanceportal_385x385_175: 259492556
+      instanceportal_385x385_176: -903138568
+      instanceportal_385x385_177: 1157866329
+      instanceportal_385x385_178: -223387662
+      instanceportal_385x385_179: 2111859347
+      instanceportal_385x385_18: 1940453045
+      instanceportal_385x385_180: -1900696511
+      instanceportal_385x385_181: 918302129
+      instanceportal_385x385_182: -185673823
+      instanceportal_385x385_183: -1236822921
+      instanceportal_385x385_184: -736299259
+      instanceportal_385x385_185: -1434239534
+      instanceportal_385x385_186: 403295618
+      instanceportal_385x385_187: 815142331
+      instanceportal_385x385_188: 1757322920
+      instanceportal_385x385_189: -1076614075
+      instanceportal_385x385_19: 332604570
+      instanceportal_385x385_190: 1638414829
+      instanceportal_385x385_191: -1607039341
+      instanceportal_385x385_192: -1887820379
+      instanceportal_385x385_193: -1611269771
+      instanceportal_385x385_194: -448178384
+      instanceportal_385x385_195: -381051876
+      instanceportal_385x385_196: -934856977
+      instanceportal_385x385_197: -856778882
+      instanceportal_385x385_198: -105856318
+      instanceportal_385x385_199: -192135965
+      instanceportal_385x385_2: 2023548461
+      instanceportal_385x385_20: -964322059
+      instanceportal_385x385_200: 1851620881
+      instanceportal_385x385_201: 129071673
+      instanceportal_385x385_202: 406197306
+      instanceportal_385x385_203: 322348012
+      instanceportal_385x385_204: 406626604
+      instanceportal_385x385_205: 189694787
+      instanceportal_385x385_206: -1508856561
+      instanceportal_385x385_207: 893440051
+      instanceportal_385x385_208: -209036745
+      instanceportal_385x385_209: -1650159494
+      instanceportal_385x385_21: 457892812
+      instanceportal_385x385_210: -189608420
+      instanceportal_385x385_22: 1189682048
+      instanceportal_385x385_23: 2001020394
+      instanceportal_385x385_24: -917143976
+      instanceportal_385x385_25: -736108357
+      instanceportal_385x385_26: -701072456
+      instanceportal_385x385_27: -1055042725
+      instanceportal_385x385_28: -1554506709
+      instanceportal_385x385_29: 1411131735
+      instanceportal_385x385_3: 207380629
+      instanceportal_385x385_30: -1452351868
+      instanceportal_385x385_31: 11483077
+      instanceportal_385x385_32: 1898067856
+      instanceportal_385x385_33: -51920604
+      instanceportal_385x385_34: 263473858
+      instanceportal_385x385_35: -2070336202
+      instanceportal_385x385_36: 2060752554
+      instanceportal_385x385_37: -102493384
+      instanceportal_385x385_38: 1314325634
+      instanceportal_385x385_39: -1793434550
+      instanceportal_385x385_4: -27682112
+      instanceportal_385x385_40: -408758025
+      instanceportal_385x385_41: 72487166
+      instanceportal_385x385_42: 1050095566
+      instanceportal_385x385_43: 1102706281
+      instanceportal_385x385_44: -835130460
+      instanceportal_385x385_45: -429850399
+      instanceportal_385x385_46: -1482008755
+      instanceportal_385x385_47: -740702841
+      instanceportal_385x385_48: -1292098705
+      instanceportal_385x385_49: 367886476
+      instanceportal_385x385_5: -1003101502
+      instanceportal_385x385_50: -108802062
+      instanceportal_385x385_51: 325555970
+      instanceportal_385x385_52: 924845798
+      instanceportal_385x385_53: 1098242805
+      instanceportal_385x385_54: -203190631
+      instanceportal_385x385_55: -680817230
+      instanceportal_385x385_56: -129837285
+      instanceportal_385x385_57: -130923505
+      instanceportal_385x385_58: -1675575141
+      instanceportal_385x385_59: -896775695
+      instanceportal_385x385_6: -1101794851
+      instanceportal_385x385_60: -18572633
+      instanceportal_385x385_61: -1840935354
+      instanceportal_385x385_62: 1008741272
+      instanceportal_385x385_63: -1347125935
+      instanceportal_385x385_64: 405742759
+      instanceportal_385x385_65: 1544330793
+      instanceportal_385x385_66: 54801327
+      instanceportal_385x385_67: 880055995
+      instanceportal_385x385_68: -1134476298
+      instanceportal_385x385_69: 1337940380
+      instanceportal_385x385_7: -1901371145
+      instanceportal_385x385_70: -679236030
+      instanceportal_385x385_71: -496107214
+      instanceportal_385x385_72: 1779596131
+      instanceportal_385x385_73: -908767333
+      instanceportal_385x385_74: 707702052
+      instanceportal_385x385_75: 1123213786
+      instanceportal_385x385_76: -569272138
+      instanceportal_385x385_77: 204847286
+      instanceportal_385x385_78: -1378687418
+      instanceportal_385x385_79: -2042460486
+      instanceportal_385x385_8: -604636901
+      instanceportal_385x385_80: -767558691
+      instanceportal_385x385_81: -774568007
+      instanceportal_385x385_82: 1033505050
+      instanceportal_385x385_83: -494122227
+      instanceportal_385x385_84: -655016986
+      instanceportal_385x385_85: 1581050414
+      instanceportal_385x385_86: -1181407136
+      instanceportal_385x385_87: 1203255478
+      instanceportal_385x385_88: -1593399020
+      instanceportal_385x385_89: 579483548
+      instanceportal_385x385_9: -760557773
+      instanceportal_385x385_90: 924837014
+      instanceportal_385x385_91: -1346513565
+      instanceportal_385x385_92: 1608546597
+      instanceportal_385x385_93: -1643588241
+      instanceportal_385x385_94: 1621418420
+      instanceportal_385x385_95: 984365318
+      instanceportal_385x385_96: 501345537
+      instanceportal_385x385_97: -1070382308
+      instanceportal_385x385_98: -1991746851
+      instanceportal_385x385_99: 2077079759
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

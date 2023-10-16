@@ -5,6 +5,11 @@ TagManager:
   serializedVersion: 2
   tags:
   - Buraco
+  - eskel_bullet
+  - coin
+  - marcenaria
+  - portal
+  - purpleFire
   layers:
   - Default
   - TransparentFX
