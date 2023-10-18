@@ -36,7 +36,6 @@ public class Player : MonoBehaviour
     public GameObject upgradeCasa;
     public GameObject maxCasa;
 
-
     // Start is called before the first frame update
     void Start()
     {
@@ -54,8 +53,8 @@ public class Player : MonoBehaviour
     void Update()
     {
         ProcessInputs();
+        MoveAnimate();
 
-        Animate();
 
         if (input.x < 0 && !facingLeft || input.x > 0 && facingLeft)
         {
@@ -83,7 +82,7 @@ public class Player : MonoBehaviour
         float moveX = Input.GetAxisRaw("Horizontal");
         float moveY = Input.GetAxisRaw("Vertical");
 
-        if ((moveX == 0 && moveY == 0) && (input.x != 0 || input.y != 0))
+        if ((moveX == 0 || moveY == 0) && (input.x != 0 || input.y != 0))
         {
             lastMoveDirection = input;
         }
@@ -94,6 +93,14 @@ public class Player : MonoBehaviour
         input.Normalize();
     }
 
+    void MoveAnimate()
+    {
+        anim.SetFloat("MoveX", input.x);
+        anim.SetFloat("MoveY", input.y);
+        anim.SetFloat("MoveMagnitude", input.magnitude);
+        anim.SetFloat("LastMoveX", lastMoveDirection.x);
+        anim.SetFloat("LastMoveY", lastMoveDirection.y);
+    }
 
     void Flip()
     {
@@ -102,16 +109,6 @@ public class Player : MonoBehaviour
         transform.localScale = scale;
         facingLeft = !facingLeft;
     }
-
-
-    void Animate(){
-        anim.SetFloat("MoveX",input.x);
-        anim.SetFloat("MoveY",input.y);
-        anim.SetFloat("MoveMagnitude",input.magnitude);
-        anim.SetFloat("LastMoveX",lastMoveDirection.x);
-        anim.SetFloat("LastMoveY",lastMoveDirection.y);
-    }
-
 
     private void BackToVillage() {
         if (Input.GetKeyDown(KeyCode.B) && scene.name != "QuartoA" && scene.name != "QuartoE")
