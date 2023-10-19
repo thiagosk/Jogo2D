@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 4625174798532105422}
   - component: {fileID: 4753756502929735327}
   - component: {fileID: 7357516745268863062}
+  - component: {fileID: 2478267271316837949}
   m_Layer: 0
   m_Name: Marcenaria
   m_TagString: marcenaria
@@ -158,3 +159,18 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 7
+--- !u!114 &2478267271316837949
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1706080317057026744}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63c3355ce2ed73b45b9a4938784a30d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  upgradeCasa: {fileID: 0}
+  maxCasa: {fileID: 0}
+  memoria: {fileID: 11400000, guid: 908cdbe34b572f044a20f223d63694b0, type: 2}

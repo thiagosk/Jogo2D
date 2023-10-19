@@ -51,6 +51,8 @@ public class Blob : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D other) {
         if(other.gameObject.CompareTag("Player"))  {
+            SoundManagerScript.PlaySound("BlobAttack");
+            SoundManagerScript.PlaySound("PlayerHit");
             animator.SetTrigger("hit");
             memoria.playerLife-=1;
         }
