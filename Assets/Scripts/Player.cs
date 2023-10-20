@@ -211,6 +211,12 @@ public class Player : MonoBehaviour
             Destroy(other.gameObject);   
         }
 
+        else if(other.gameObject.CompareTag("grandmasterProjectile"))  {
+            SoundManagerScript.PlaySound("PlayerHit");
+            memoria.playerLife-=1;
+            Destroy(other.gameObject);   
+        }
+
         else if(other.gameObject.CompareTag("coin"))  {
             SoundManagerScript.PlaySound("Coin");
             memoria.coin+=memoria.coinValue;
