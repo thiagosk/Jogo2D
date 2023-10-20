@@ -15,6 +15,7 @@ public class Memoria : ScriptableObject
 
     // Moeda
     public int coin = 0;
+    public int coinValue = 0;
 
     // Upgrade Casa
     public int casaNivel = 1;

@@ -19,7 +19,7 @@ public class Eskel : MonoBehaviour
     private float distanceToShoot = 6f;
     private float distanceToStop = 6f;
 
-    private float fireRate = 0.8f;
+    private float fireRate = 2f;
     private float timeToFire;
 
     public Transform firingPoint;
@@ -76,6 +76,7 @@ public class Eskel : MonoBehaviour
 
     private void Shoot() {
         if (timeToFire <= 0f) {
+            SoundManagerScript.PlaySound("EskelAttack");
             animator.SetTrigger("hit");
             timeToFire = fireRate;
             Instantiate(bullet, transform.position, transform.rotation);

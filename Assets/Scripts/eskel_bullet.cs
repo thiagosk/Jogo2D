@@ -25,4 +25,11 @@ public class eskel_bullet : MonoBehaviour
         rb.velocity = transform.up * speed;
     }
 
+    private void OnTriggerEnter2D(Collider2D other) 
+    {
+        if(other.gameObject.CompareTag("wall"))  {
+            Destroy(gameObject);   
+        }
+    }
+
 }
