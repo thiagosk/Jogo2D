@@ -71,7 +71,7 @@ public class Player : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            Attack();
+            AttackSound();
         }
 
         if (scene.name == "Village")
@@ -105,7 +105,7 @@ public class Player : MonoBehaviour
         }
     }
 
-    void Attack()
+    void AttackSound()
     {
         SoundManagerScript.PlaySound("PlayerAttack");
     }
@@ -129,6 +129,7 @@ public class Player : MonoBehaviour
 
         Vector3 vectorAim =  Vector3.left*input.x + Vector3.down*input.y;
         aim.rotation = Quaternion.LookRotation(Vector3.forward, vectorAim);
+        print(aim);
     }
 
 

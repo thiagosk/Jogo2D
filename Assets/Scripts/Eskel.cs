@@ -28,6 +28,10 @@ public class Eskel : MonoBehaviour
 
     private float rotateSpeed = 0.05f;
 
+    public int maxHealth = 4;
+    
+    int currentHealth;
+
     
     void Start()
     {
@@ -36,6 +40,8 @@ public class Eskel : MonoBehaviour
         animator = GetComponent<Animator>();
 
         target = GameObject.FindWithTag("Player").transform;
+
+        currentHealth = maxHealth;
     }
 
 
@@ -84,5 +90,18 @@ public class Eskel : MonoBehaviour
         else {
             timeToFire -= Time.deltaTime;
         }
+    }
+
+    public void TakeDamage(int damage){
+        currentHealth -= damage;
+
+        if(currentHealth <= 0){
+            Die();
+        }
+    }
+
+    void Die(){
+        Debug.Log("Enemy died");
+        Destroy(gameObject);
     }
 }

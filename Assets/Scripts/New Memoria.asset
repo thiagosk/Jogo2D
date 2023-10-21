@@ -16,6 +16,7 @@ MonoBehaviour:
   playerSpeed: 7
   playerLife: 0
   playerNumOfHearts: 7
-  coin: 171
+  coin: 191
   coinValue: 20
+  attackDamage: 1
   casaNivel: 3

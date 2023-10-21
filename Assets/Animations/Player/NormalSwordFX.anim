@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: SwordFX
+  m_Name: NormalSwordFX
   serializedVersion: 7
   m_Legacy: 0
   m_Compressed: 0
@@ -22,11 +22,11 @@ AnimationClip:
     curve:
     - time: 0
       value: {fileID: 21300000, guid: 6d3e02a9bbe70cf439f4fb6bb3d78fdf, type: 3}
-    - time: 0.13333334
+    - time: 0.15
       value: {fileID: 21300000, guid: 90d807c822743f64d924909d3cce2056, type: 3}
     - time: 0.3
       value: {fileID: 21300000, guid: 850b2e8e866ccdc4aaccccf013d190a7, type: 3}
-    - time: 0.45
+    - time: 0.43333334
       value: {fileID: 21300000, guid: 42088e06c98f59242908a184d0c505ba, type: 3}
     - time: 0.5833333
       value: {fileID: 21300000, guid: 66c31e86f921f544483cb520de76fc65, type: 3}

@@ -15,6 +15,10 @@ public class Blob : MonoBehaviour
     Animator animator;
 
     public Memoria memoria;
+
+    public int maxHealth = 2;
+
+    int currentHealth;
     
     
     void Start()
@@ -24,6 +28,8 @@ public class Blob : MonoBehaviour
         animator = GetComponent<Animator>();
 
         target = GameObject.FindWithTag("Player").transform;
+
+        currentHealth = maxHealth;
 
     }
 
@@ -56,5 +62,18 @@ public class Blob : MonoBehaviour
             animator.SetTrigger("hit");
             memoria.playerLife-=1;
         }
+    }
+
+    public void TakeDamage(int damage){
+        currentHealth -= damage;
+
+        if(currentHealth <= 0){
+            Die();
+        }
+    }
+
+    void Die(){
+        Debug.Log("Enemy died");
+        Destroy(gameObject);
     }
 }
