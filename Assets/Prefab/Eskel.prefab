@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 4233894285342041010}
   - component: {fileID: 265130148077396033}
   - component: {fileID: 3679628149126995053}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Eskel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -185,10 +185,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 3
-  target: {fileID: 7221143337233894984, guid: 8bc07dfc3d445394b83341638d93c637, type: 3}
   memoria: {fileID: 11400000, guid: 908cdbe34b572f044a20f223d63694b0, type: 2}
   firingPoint: {fileID: 3506067413678138032}
   bullet: {fileID: 6510318617485421459, guid: 825369d001a3f7f4fadfb3265888f740, type: 3}
+  maxHealth: 4
 --- !u!1 &3606432823220405731
 GameObject:
   m_ObjectHideFlags: 0
@@ -198,7 +198,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3506067413678138032}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: firingPoint
   m_TagString: Untagged
   m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}

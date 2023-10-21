@@ -17,6 +17,10 @@ public class Adept : MonoBehaviour
     public GameObject purpleFire;
     private float fireRate = 1f;
     private float timeToFire;
+
+    public int maxHealth = 6;
+    
+    int currentHealth;
     
     
     void Start()
@@ -24,6 +28,8 @@ public class Adept : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
 
         target = GameObject.FindWithTag("Player").transform;
+
+        currentHealth = maxHealth;
 
     }
 
@@ -76,6 +82,19 @@ public class Adept : MonoBehaviour
         else {
             timeToFire -= Time.deltaTime;
         }
+    }
+
+    public void TakeDamage(int damage){
+        currentHealth -= damage;
+
+        if(currentHealth <= 0){
+            Die();
+        }
+    }
+
+    void Die(){
+        Debug.Log("Enemy died");
+        Destroy(gameObject);
     }
 
 }

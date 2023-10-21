@@ -86,5 +86,6 @@ public class GrandmasterWarlock : MonoBehaviour
 
     void Die(){
         Debug.Log("Enemy died");
+        Destroy(gameObject);
     }
 }

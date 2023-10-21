@@ -54,6 +54,15 @@ public class PlayerCombat : MonoBehaviour
             if(Enemy.name == "GrandMasterWarlock"){
                 Enemy.GetComponent<GrandmasterWarlock>().TakeDamage(memoria.attackDamage);
             }
+            else if(Enemy.name == "Blob"){
+                Enemy.GetComponent<Blob>().TakeDamage(memoria.attackDamage);
+            }
+            else if(Enemy.name == "Eskel"){
+                Enemy.GetComponent<Eskel>().TakeDamage(memoria.attackDamage);
+            }
+            else if(Enemy.name == "Adept"){
+                Enemy.GetComponent<Adept>().TakeDamage(memoria.attackDamage);
+            }
         } 
     }
 

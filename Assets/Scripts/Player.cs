@@ -71,7 +71,7 @@ public class Player : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            Attack();
+            AttackSound();
         }
 
         if (scene.name == "Village")
@@ -105,7 +105,7 @@ public class Player : MonoBehaviour
         }
     }
 
-    void Attack()
+    void AttackSound()
     {
         SoundManagerScript.PlaySound("PlayerAttack");
     }
