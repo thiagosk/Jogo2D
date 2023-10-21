@@ -12,12 +12,15 @@ public class GrandmasterWarlock : MonoBehaviour
     private Vector2 moveDirection;
     private GameObject player;
     private float timerShoot3Times;
+    public int maxHealth = 3;
+    int currentHealth;
     private float[] shootAngles = { 0,30f, -30f };
     // Start is called before the first frame update
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player");
         rb = GetComponent<Rigidbody2D>();
+        currentHealth = maxHealth;
     }
 
     // Update is called once per frame
@@ -36,7 +39,7 @@ public class GrandmasterWarlock : MonoBehaviour
 
             Vector3 direction = (player.transform.position - transform.position).normalized;
             moveDirection = direction;
-            print(moveDirection);
+            // print(moveDirection);
         }
 
         if (player.transform.position.x < transform.position.x && !facingRight){
@@ -71,7 +74,17 @@ public class GrandmasterWarlock : MonoBehaviour
         }
     }
 
-    void directShoot(){
+    void directShoot(){}
 
+    public void TakeDamage(int damage){
+        currentHealth -= damage;
+
+        if(currentHealth <= 0){
+            Die();
+        }
+    }
+
+    void Die(){
+        Debug.Log("Enemy died");
     }
 }
