@@ -7,6 +7,8 @@ public class EnemySpawn : MonoBehaviour
     public Transform[] spawnPoints;
     public GameObject[] enemyPrefabs;
 
+    public Memoria memoria;
+
     void Start()
     {    
         for (int i = 0; i < spawnPoints.Length; i++) {

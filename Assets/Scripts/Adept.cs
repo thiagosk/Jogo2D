@@ -21,6 +21,8 @@ public class Adept : MonoBehaviour
     public int maxHealth = 6;
     
     int currentHealth;
+
+    public Memoria memoria;
     
     
     void Start()
@@ -30,6 +32,8 @@ public class Adept : MonoBehaviour
         target = GameObject.FindWithTag("Player").transform;
 
         currentHealth = maxHealth;
+
+        memoria.numEnemies+=1;
 
     }
 
@@ -95,6 +99,7 @@ public class Adept : MonoBehaviour
     void Die(){
         Debug.Log("Enemy died");
         Destroy(gameObject);
+        memoria.numEnemies-=1;
     }
 
 }

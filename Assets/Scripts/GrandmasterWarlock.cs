@@ -15,12 +15,15 @@ public class GrandmasterWarlock : MonoBehaviour
     public int maxHealth = 3;
     int currentHealth;
     private float[] shootAngles = { 0,30f, -30f };
+
+    public GameObject portal;
     // Start is called before the first frame update
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player");
         rb = GetComponent<Rigidbody2D>();
         currentHealth = maxHealth;
+        portal.SetActive(false);
     }
 
     // Update is called once per frame
@@ -87,5 +90,6 @@ public class GrandmasterWarlock : MonoBehaviour
     void Die(){
         Debug.Log("Enemy died");
         Destroy(gameObject);
+        portal.SetActive(true);
     }
 }

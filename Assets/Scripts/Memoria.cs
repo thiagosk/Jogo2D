@@ -20,4 +20,6 @@ public class Memoria : ScriptableObject
     public int attackDamage = 1;
     // Upgrade Casa
     public int casaNivel = 1;
+
+    public int numEnemies;
 }

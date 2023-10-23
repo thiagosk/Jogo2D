@@ -31,6 +31,8 @@ public class Blob : MonoBehaviour
 
         currentHealth = maxHealth;
 
+        memoria.numEnemies+=1;
+
     }
 
 
@@ -75,5 +77,6 @@ public class Blob : MonoBehaviour
     void Die(){
         Debug.Log("Enemy died");
         Destroy(gameObject);
+        memoria.numEnemies=-1;
     }
 }

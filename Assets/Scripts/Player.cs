@@ -37,6 +37,8 @@ public class Player : MonoBehaviour
     // Ataque
     public Transform aim;
 
+    public GameObject portal;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -47,6 +49,8 @@ public class Player : MonoBehaviour
         anim = GetComponent<Animator>();
 
         audioSource = GetComponent<AudioSource>();
+
+        memoria.numEnemies = 0;
 
     }
 
@@ -74,7 +78,7 @@ public class Player : MonoBehaviour
             AttackSound();
         }
 
-        if (scene.name == "Village")
+        if (scene.name == "Vila")
         {
             memoria.playerLife = memoria.playerNumOfHearts;
             memoria.coinValue = 1;
@@ -86,9 +90,22 @@ public class Player : MonoBehaviour
         }
 
         CoinLogic();
+
+        PortalNumEnemy();
         
     }
 
+
+    private void PortalNumEnemy()
+    {
+        if (memoria.numEnemies <= 0 && scene.name != "Vila" && scene.name != "QuartoE")
+        {
+            portal.SetActive(true);
+        }
+        else{
+            portal.SetActive(false);
+        }
+    }
     private void CoinLogic()
     {
         if (memoria.profundo == 1)
@@ -172,7 +189,7 @@ public class Player : MonoBehaviour
     }
 
     private void BackToVillage() {
-        if (Input.GetKeyDown(KeyCode.B) && scene.name != "Village" && scene.name != "DungeBoss")
+        if (Input.GetKeyDown(KeyCode.B) && scene.name != "Vila" && scene.name != "QuartoE")
         {
             SoundManagerScript.PlaySound("Portal");
             memoria.profundo = 1;
@@ -187,26 +204,26 @@ public class Player : MonoBehaviour
         {
             SoundManagerScript.PlaySound("Portal");
 
-            if (scene.name == "Village")
+            if (scene.name == "Vila")
             {   
-                SceneManager.LoadScene(Random.Range(1, 4));
+                SceneManager.LoadScene(Random.Range(2, 5));
             }
-            else if (scene.name == "DungeA" || scene.name == "DungeB" || scene.name == "DungeC")
+            else if (scene.name == "QuartoA" || scene.name == "QuartoB" || scene.name == "QuartoC")
             {
                 memoria.profundo = memoria.profundo+1;
                 if (memoria.profundo >= 4)
                 {
-                    SceneManager.LoadScene(4);
+                    SceneManager.LoadScene(5);
                 }
                 else 
                 {
-                    SceneManager.LoadScene(Random.Range(1, 4));
+                    SceneManager.LoadScene(Random.Range(2, 5));
                 }
             }
-            else if (scene.name == "DungeBoss")
+            else if (scene.name == "QuartoE")
             {
                 memoria.profundo = 1;
-                SceneManager.LoadScene(0);
+                SceneManager.LoadScene(1);
             }
         }
 
