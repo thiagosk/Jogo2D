@@ -79,16 +79,18 @@ public class PlayerCombat : MonoBehaviour
         }
     
         foreach(Collider2D Enemy in hitEnemies){
-            if(Enemy.name == "GrandMasterWarlock"){
+            Debug.Log("We hit "+ Enemy.name);
+            //Arrumar isso depois para inimigo especifico
+            if(Enemy.name == "GrandMasterWarlock" || Enemy.name == "GrandMasterWarlock(Clone)"){
                 Enemy.GetComponent<GrandmasterWarlock>().TakeDamage(memoria.attackDamage);
             }
-            else if(Enemy.name == "Blob"){
+            else if(Enemy.name == "Blob(Clone)" || Enemy.name == "Blob"){
                 Enemy.GetComponent<Blob>().TakeDamage(memoria.attackDamage);
             }
-            else if(Enemy.name == "Eskel"){
+            else if(Enemy.name == "Eskel(Clone)" || Enemy.name == "Eskel"){
                 Enemy.GetComponent<Eskel>().TakeDamage(memoria.attackDamage);
             }
-            else if(Enemy.name == "Adept"){
+            else if(Enemy.name == "Adept(Clone)" || Enemy.name == "Adept"){
                 Enemy.GetComponent<Adept>().TakeDamage(memoria.attackDamage);
             }
         } 

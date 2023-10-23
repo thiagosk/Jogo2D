@@ -23,6 +23,7 @@ public class Memoria : ScriptableObject
     // Upgrade Casa
     public int casaNivel = 1;
 
+    public int numEnemies;
     // Upgrade Armas
     public int armaNivel = 0;
     // 0 -> nao comprou nada

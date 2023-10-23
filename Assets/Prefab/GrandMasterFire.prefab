@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 7229525241769956689}
   - component: {fileID: 5305712740184260067}
   - component: {fileID: -1947164591550085298}
+  - component: {fileID: -1919321935778083905}
   m_Layer: 0
   m_Name: GrandMasterFire
   m_TagString: grandmasterProjectile
@@ -96,7 +97,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 8673df7b7f2968a42b1407818339366b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -170,3 +171,15 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 4
+--- !u!114 &-1919321935778083905
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5342569074092439621}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51c9672b314eeab46b9f5f9281954ef7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
