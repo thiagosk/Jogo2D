@@ -37,7 +37,12 @@ public class Player : MonoBehaviour
     // Ataque
     public Transform aim;
 
+
     public GameObject portal;
+    // HUD Espada,flecha,espada de fogo
+    public GameObject NormalSwordHUD;
+    public GameObject FireSwordHUD;
+    public GameObject BowHUD;
 
     // Start is called before the first frame update
     void Start()
@@ -77,6 +82,12 @@ public class Player : MonoBehaviour
         {
             AttackSound();
         }
+        
+        if (Input.GetKeyDown(KeyCode.K))
+        {
+            AttackSound();
+        }
+
 
         if (scene.name == "Vila")
         {
@@ -89,12 +100,13 @@ public class Player : MonoBehaviour
             memoria.coinValue = 20;
         }
 
+        HUDWeapon();
+
         CoinLogic();
 
         PortalNumEnemy();
         
     }
-
 
     private void PortalNumEnemy()
     {
@@ -104,6 +116,25 @@ public class Player : MonoBehaviour
         }
         else{
             portal.SetActive(false);
+        }
+    }
+    private void HUDWeapon(){
+        if(memoria.armaNivel==0){
+            NormalSwordHUD.SetActive(true);
+            FireSwordHUD.SetActive(false);
+            BowHUD.SetActive(false);
+        }else if(memoria.armaNivel==1){
+            NormalSwordHUD.SetActive(false);
+            FireSwordHUD.SetActive(true);
+            BowHUD.SetActive(false);
+        }else if(memoria.armaNivel==2){
+            NormalSwordHUD.SetActive(true);
+            FireSwordHUD.SetActive(false);
+            BowHUD.SetActive(true);
+        }else if(memoria.armaNivel==3){
+            NormalSwordHUD.SetActive(false);
+            FireSwordHUD.SetActive(true);
+            BowHUD.SetActive(true);
         }
     }
     private void CoinLogic()
@@ -146,7 +177,6 @@ public class Player : MonoBehaviour
 
         Vector3 vectorAim =  Vector3.left*input.x + Vector3.down*input.y;
         aim.rotation = Quaternion.LookRotation(Vector3.forward, vectorAim);
-        print(aim);
     }
 
 
@@ -264,8 +294,7 @@ public class Player : MonoBehaviour
         }
 
         for (int i = 0; i < hearts.Length; i++) {
-            if (i < memoria.playerLife
-            ) {
+            if (i < memoria.playerLife) {
                 hearts[i].sprite = fullHeart;
             }
             else {

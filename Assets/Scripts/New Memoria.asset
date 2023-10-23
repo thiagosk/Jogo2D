@@ -21,3 +21,5 @@ MonoBehaviour:
   attackDamage: 1
   casaNivel: 3
   numEnemies: -2
+  hasBow: 1
+  armaNivel: 3
