@@ -74,6 +74,11 @@ public class Player : MonoBehaviour
             AttackSound();
         }
 
+        if (Input.GetKeyDown(KeyCode.K))
+        {
+            // ShootSound();
+        }
+
         if (scene.name == "Village")
         {
             memoria.playerLife = memoria.playerNumOfHearts;
@@ -129,7 +134,6 @@ public class Player : MonoBehaviour
 
         Vector3 vectorAim =  Vector3.left*input.x + Vector3.down*input.y;
         aim.rotation = Quaternion.LookRotation(Vector3.forward, vectorAim);
-        print(aim);
     }
 
 

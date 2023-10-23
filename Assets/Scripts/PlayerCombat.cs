@@ -5,15 +5,29 @@ using UnityEngine;
 //This script is only used to animate the attack because i wasn't able to do it in the Player.cs
 public class PlayerCombat : MonoBehaviour
 {
+    // Memoria
+    public Memoria memoria;
+
+    // Melee
     public GameObject Melee;
     bool isAttacking = false;
     float atkDuration = 0.3f;
     float atkTimer = 0f;
-    public Animator anim;
-    public float attackTime = 0.3f;
-    public LayerMask enemyLayers;
     public float attackRange = 0.5f;
-    public Memoria memoria;
+
+    // Ranged
+    public GameObject arrow;
+    public Transform aim;
+    float shootCoolDown = 0.25f;
+    float shootTimer = 0.5f;
+
+    // Animation
+    public Animator anim;
+    
+    // Enemies
+    public LayerMask enemyLayers;
+    Collider2D[] hitEnemies;
+
     // Update is called once per frame
     void Start(){
         AnimationClip[] clips = anim.runtimeAnimatorController.animationClips;
@@ -31,10 +45,16 @@ public class PlayerCombat : MonoBehaviour
     void Update()
     {
         CheckMeleeTimer();
+        shootTimer+= Time.deltaTime;
 
         if (Input.GetKeyDown(KeyCode.Space))
         {
             Attack();
+        }
+
+        if(Input.GetKeyDown(KeyCode.K) && memoria.hasBow)
+        {
+            shoot();
         }
     }
 
@@ -46,7 +66,8 @@ public class PlayerCombat : MonoBehaviour
             Melee.SetActive(true);
             isAttacking=true;
         }
-        Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(Melee.transform.position, attackRange, enemyLayers);
+
+        hitEnemies = Physics2D.OverlapCircleAll(Melee.transform.position, attackRange, enemyLayers);
     
         foreach(Collider2D Enemy in hitEnemies){
             Debug.Log("We hit "+ Enemy.name);
@@ -64,6 +85,17 @@ public class PlayerCombat : MonoBehaviour
                 Enemy.GetComponent<Adept>().TakeDamage(memoria.attackDamage);
             }
         } 
+    }
+
+    void shoot(){
+        // Cria instancia de objeto arrow que contem script PlayerArrow.cs
+        // Dentro desse arquivo lida com colisao
+        if(shootTimer > shootCoolDown)
+        {
+            shootTimer = 0;
+            GameObject intArrow = Instantiate(arrow,aim.position,aim.rotation);
+            intArrow.GetComponent<Rigidbody2D>().AddForce(-aim.up*10f, ForceMode2D.Impulse);
+        }
     }
 
     void CheckMeleeTimer(){
