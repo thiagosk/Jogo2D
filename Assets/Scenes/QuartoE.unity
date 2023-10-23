@@ -207,6 +207,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 84069943197525847, guid: 8bc07dfc3d445394b83341638d93c637, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3146676472605880400, guid: 8bc07dfc3d445394b83341638d93c637, type: 3}
       propertyPath: coinTXT
       value: 
@@ -18468,6 +18472,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: HUD
       objectReference: {fileID: 0}
+    - target: {fileID: 2413013849438844032, guid: 74d284d3c860ab94185bf780f6f2e160, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -428.55
+      objectReference: {fileID: 0}
+    - target: {fileID: 2413013849438844032, guid: 74d284d3c860ab94185bf780f6f2e160, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -146.44
+      objectReference: {fileID: 0}
     - target: {fileID: 4017287489882152988, guid: 74d284d3c860ab94185bf780f6f2e160, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -18556,6 +18568,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7989708174651787928, guid: 74d284d3c860ab94185bf780f6f2e160, type: 3}
+      propertyPath: portal
+      value: 
+      objectReference: {fileID: 1820698518}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

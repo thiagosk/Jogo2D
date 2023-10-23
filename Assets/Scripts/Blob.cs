@@ -30,7 +30,7 @@ public class Blob : MonoBehaviour
         target = GameObject.FindWithTag("Player").transform;
 
         currentHealth = maxHealth;
-
+        // portal.SetActive(false);
         memoria.numEnemies+=1;
 
     }
@@ -76,7 +76,7 @@ public class Blob : MonoBehaviour
 
     void Die(){
         Debug.Log("Enemy died");
+        memoria.numEnemies-=1;
         Destroy(gameObject);
-        memoria.numEnemies=-1;
     }
 }

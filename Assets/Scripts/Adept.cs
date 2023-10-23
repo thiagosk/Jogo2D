@@ -98,8 +98,8 @@ public class Adept : MonoBehaviour
 
     void Die(){
         Debug.Log("Enemy died");
-        Destroy(gameObject);
         memoria.numEnemies-=1;
+        Destroy(gameObject);
     }
 
 }
