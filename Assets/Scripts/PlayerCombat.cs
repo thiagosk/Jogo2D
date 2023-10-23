@@ -10,6 +10,7 @@ public class PlayerCombat : MonoBehaviour
 
     // Melee
     public GameObject Melee;
+    public GameObject MeleeFire;
     bool isAttacking = false;
     float atkDuration = 0.3f;
     float atkTimer = 0f;
@@ -63,15 +64,21 @@ public class PlayerCombat : MonoBehaviour
         // Play Animation
         anim.SetTrigger("Attack");
         if(!isAttacking){
-            Melee.SetActive(true);
+            if(memoria.armaNivel==1||memoria.armaNivel==3){
+                MeleeFire.SetActive(true);
+            }else{
+                Melee.SetActive(true);
+            }
             isAttacking=true;
         }
 
-        hitEnemies = Physics2D.OverlapCircleAll(Melee.transform.position, attackRange, enemyLayers);
+        if(memoria.armaNivel==1||memoria.armaNivel==3){
+            hitEnemies = Physics2D.OverlapCircleAll(MeleeFire.transform.position, attackRange, enemyLayers);
+        }else{
+            hitEnemies = Physics2D.OverlapCircleAll(Melee.transform.position, attackRange, enemyLayers);
+        }
     
         foreach(Collider2D Enemy in hitEnemies){
-            Debug.Log("We hit "+ Enemy.name);
-            //Arrumar isso depois para inimigo especifico
             if(Enemy.name == "GrandMasterWarlock"){
                 Enemy.GetComponent<GrandmasterWarlock>().TakeDamage(memoria.attackDamage);
             }
@@ -104,7 +111,11 @@ public class PlayerCombat : MonoBehaviour
             if(atkTimer >= atkDuration){
                 atkTimer=0;
                 isAttacking=false;
-                Melee.SetActive(false);
+                if(memoria.armaNivel==1 || memoria.armaNivel==3){
+                    MeleeFire.SetActive(false);
+                }else{
+                    Melee.SetActive(false);
+                }
             }
         }
     }
