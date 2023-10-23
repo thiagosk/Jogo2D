@@ -12,32 +12,42 @@ public class GrandmasterWarlock : MonoBehaviour
     private Vector2 moveDirection;
     private GameObject player;
     private float timerShoot3Times;
-    public int maxHealth = 3;
+    private int maxHealth = 20;
     int currentHealth;
-    private float[] shootAngles = { 0,30f, -30f };
+    private float[] shootAngles = { 0,30f,15f, -30f ,-15f};
 
     public GameObject portal;
+
+    public Memoria memoria;
     // Start is called before the first frame update
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player");
         rb = GetComponent<Rigidbody2D>();
         currentHealth = maxHealth;
-        portal.SetActive(false);
+        // portal.SetActive(false);
+        memoria.bossExist=0;
     }
 
     // Update is called once per frame
     void Update()
     {
         if(player){
-            if(Vector2.Distance(transform.position,player.transform.position) > 0.1f){
-                timerShoot3Times+= Time.deltaTime;
+            // if(Vector2.Distance(transform.position,player.transform.position) > 0.1f){
+            //     timerShoot3Times+= Time.deltaTime;
 
-                if(timerShoot3Times>1.5f)
-                {
-                    timerShoot3Times = 0;
-                    shoot();
-                }
+            //     if(timerShoot3Times>1f)
+            //     {
+            //         timerShoot3Times = 0;
+            //         shoot();
+            //     }
+            // }
+            timerShoot3Times+= Time.deltaTime;
+
+            if(timerShoot3Times>1f)
+            {
+                timerShoot3Times = 0;
+                shoot();
             }
 
             Vector3 direction = (player.transform.position - transform.position).normalized;
@@ -68,7 +78,7 @@ public class GrandmasterWarlock : MonoBehaviour
 
     void shoot()
     {
-        for(int i=0;i<3;i++){
+        for(int i=0;i<5;i++){
             GameObject newFire = Instantiate(fire, firePos.position, Quaternion.identity);
             float shootAngle = shootAngles[i];
             Vector3 direction = player.transform.position - firePos.position;
@@ -89,7 +99,9 @@ public class GrandmasterWarlock : MonoBehaviour
 
     void Die(){
         Debug.Log("Enemy died");
+        // memoria.numEnemies-=1;
         Destroy(gameObject);
-        portal.SetActive(true);
+        // portal.SetActive(true);
+        memoria.bossExist=1;
     }
 }

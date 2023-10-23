@@ -110,7 +110,7 @@ public class Player : MonoBehaviour
 
     private void PortalNumEnemy()
     {
-        if (memoria.numEnemies <= 0 && scene.name != "Vila" && scene.name != "QuartoE")
+        if (memoria.numEnemies <= 0 && scene.name != "Vila" && memoria.bossExist == 1)
         {
             portal.SetActive(true);
         }
@@ -219,7 +219,7 @@ public class Player : MonoBehaviour
     }
 
     private void BackToVillage() {
-        if (Input.GetKeyDown(KeyCode.B) && scene.name != "Vila" && scene.name != "QuartoE")
+        if (Input.GetKeyDown(KeyCode.B) && scene.name != "Vila" && scene.name != "QuartoE" && memoria.numEnemies <= 0)
         {
             SoundManagerScript.PlaySound("Portal");
             memoria.profundo = 1;

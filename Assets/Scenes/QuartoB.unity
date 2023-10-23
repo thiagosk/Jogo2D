@@ -2853,6 +2853,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 84069943197525847, guid: 8bc07dfc3d445394b83341638d93c637, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3146676472605880400, guid: 8bc07dfc3d445394b83341638d93c637, type: 3}
       propertyPath: portal
       value: 
@@ -3462,9 +3466,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: HUD
       objectReference: {fileID: 0}
-    - target: {fileID: 4017287489882152988, guid: 74d284d3c860ab94185bf780f6f2e160, type: 3}
-      propertyPath: m_IsActive
+    - target: {fileID: 1963571554384158412, guid: 74d284d3c860ab94185bf780f6f2e160, type: 3}
+      propertyPath: m_BackGroundColor.b
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1963571554384158412, guid: 74d284d3c860ab94185bf780f6f2e160, type: 3}
+      propertyPath: m_BackGroundColor.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1963571554384158412, guid: 74d284d3c860ab94185bf780f6f2e160, type: 3}
+      propertyPath: m_BackGroundColor.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2413013849438844032, guid: 74d284d3c860ab94185bf780f6f2e160, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -416.07
+      objectReference: {fileID: 0}
+    - target: {fileID: 2413013849438844032, guid: 74d284d3c860ab94185bf780f6f2e160, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -153.16
       objectReference: {fileID: 0}
     - target: {fileID: 6042611518883572476, guid: 74d284d3c860ab94185bf780f6f2e160, type: 3}
       propertyPath: m_Pivot.x
@@ -3546,10 +3566,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6205165141231375598, guid: 74d284d3c860ab94185bf780f6f2e160, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
+    - target: {fileID: 7989708174651787928, guid: 74d284d3c860ab94185bf780f6f2e160, type: 3}
+      propertyPath: portal
+      value: 
+      objectReference: {fileID: 1842527632}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

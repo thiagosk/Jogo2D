@@ -30,4 +30,6 @@ public class Memoria : ScriptableObject
     // 1 -> comprou espada de fogo e ainda nao comprou arco
     // 2 -> comprou arco e nao comprou espada de fogo
     // 3 -> comprou espada de fogo e arco
+
+    public int bossExist = 0;
 }
