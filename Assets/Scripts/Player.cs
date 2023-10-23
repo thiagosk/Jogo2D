@@ -34,6 +34,9 @@ public class Player : MonoBehaviour
     // Audio
     AudioSource audioSource;
 
+    // Ataque
+    public Transform aim;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -68,7 +71,7 @@ public class Player : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            Attack();
+            AttackSound();
         }
 
         if (scene.name == "Village")
@@ -102,14 +105,9 @@ public class Player : MonoBehaviour
         }
     }
 
-    void Attack()
+    void AttackSound()
     {
         SoundManagerScript.PlaySound("PlayerAttack");
-
-        // Play Animation
-        anim.SetTrigger("Attack");
-        // Detect collision
-        // Apply damage
     }
 
 
@@ -128,6 +126,10 @@ public class Player : MonoBehaviour
         {
             audioSource.Stop();
         }
+
+        Vector3 vectorAim =  Vector3.left*input.x + Vector3.down*input.y;
+        aim.rotation = Quaternion.LookRotation(Vector3.forward, vectorAim);
+        print(aim);
     }
 
 
@@ -140,6 +142,9 @@ public class Player : MonoBehaviour
         {
             lastMoveDirection = input;
         }
+        
+        Vector3 vectorAim =  Vector3.left*lastMoveDirection.x + Vector3.down*lastMoveDirection.y;
+        aim.rotation = Quaternion.LookRotation(Vector3.forward, vectorAim);
 
         input.x = Input.GetAxisRaw("Horizontal");
         input.y = Input.GetAxisRaw("Vertical");
@@ -206,6 +211,12 @@ public class Player : MonoBehaviour
         }
 
         else if(other.gameObject.CompareTag("eskel_bullet"))  {
+            SoundManagerScript.PlaySound("PlayerHit");
+            memoria.playerLife-=1;
+            Destroy(other.gameObject);   
+        }
+
+        else if(other.gameObject.CompareTag("grandmasterProjectile"))  {
             SoundManagerScript.PlaySound("PlayerHit");
             memoria.playerLife-=1;
             Destroy(other.gameObject);   

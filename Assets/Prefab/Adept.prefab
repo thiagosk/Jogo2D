@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 7862526511409713175}
   - component: {fileID: 8527722751558978828}
   - component: {fileID: 2475584929552031060}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Adept
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -194,4 +194,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 2.5
+  facingRight: 0
   purpleFire: {fileID: 5822563710627915592, guid: 4e85f3ae181525c47a9460a82c6454bf, type: 3}
+  maxHealth: 6
