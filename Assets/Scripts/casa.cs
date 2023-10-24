@@ -23,12 +23,12 @@ public class casa : MonoBehaviour
         if (memoria.casaNivel == 1) {
             spriteRenderer.sprite = spriteArray[0];
             memoria.playerNumOfHearts = 3;
-            memoria.playerSpeed = 3f;
+            memoria.playerSpeed = 5f;
         }
         else if (memoria.casaNivel == 2) {
             spriteRenderer.sprite = spriteArray[1]; 
             memoria.playerNumOfHearts = 5;
-            memoria.playerSpeed = 5f;
+            memoria.playerSpeed = 6f;
         }
         else if (memoria.casaNivel == 3) {
             spriteRenderer.sprite = spriteArray[2]; 

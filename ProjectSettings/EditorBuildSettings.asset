@@ -32,6 +32,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/QuartoE.unity
     guid: a5439b8460ec815458eadca40e67c97b
+  - enabled: 1
+    path: Assets/Scenes/MenuMorte.unity
+    guid: 0310f6f94e03a214ea77ba238f1fe88f
   - enabled: 0
     path: Assets/Scenes/Village.unity
     guid: e35ed535ba364cd4aaf9ae091a7210f8

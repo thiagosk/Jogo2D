@@ -12,14 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f96b5209c02b5e04eaf449b856e28ffd, type: 3}
   m_Name: New Memoria
   m_EditorClassIdentifier: 
-  profundo: 4
-  playerSpeed: 7
-  playerLife: 0
-  playerNumOfHearts: 7
-  coin: 100
-  coinValue: 10
+  profundo: 1
+  playerSpeed: 5
+  playerLife: 3
+  playerNumOfHearts: 3
+  coin: 60
+  coinValue: 1
   attackDamage: 2
-  hasBow: 0
-  casaNivel: 3
-  numEnemies: 0
-  armaNivel: 1
+  hasBow: 1
+  casaNivel: 1
+  numEnemies: 4
+  armaNivel: 3
+  bossExist: 1

@@ -57,7 +57,7 @@ public class LojaScript : MonoBehaviour
                 onlybow.SetActive(false);
                 onlySword.SetActive(true);
                 nothing.SetActive(false);
-            }else{
+            }else if(memoria.armaNivel == 3){
                 fireSwordandBow.SetActive(false);
                 onlybow.SetActive(false);
                 onlySword.SetActive(false);
@@ -80,7 +80,7 @@ public class LojaScript : MonoBehaviour
             } else if(Input.GetKeyDown(KeyCode.R) && memoria.coin>=bowPrice && memoria.armaNivel < 3){ //Compra de arco
                 if (memoria.armaNivel == 0) {
                     SoundManagerScript.PlaySound("Interaction");
-                    memoria.armaNivel = 1;
+                    memoria.armaNivel = 2;
                     memoria.hasBow = true;
                     memoria.coin -= bowPrice;
                 } else if (memoria.armaNivel == 1) {
