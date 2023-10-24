@@ -7441,6 +7441,14 @@ PrefabInstance:
       propertyPath: m_BackGroundColor.r
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2413013849438844032, guid: 74d284d3c860ab94185bf780f6f2e160, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -400.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2413013849438844032, guid: 74d284d3c860ab94185bf780f6f2e160, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -163.4
+      objectReference: {fileID: 0}
     - target: {fileID: 3959148805480123479, guid: 74d284d3c860ab94185bf780f6f2e160, type: 3}
       propertyPath: m_IsActive
       value: 0

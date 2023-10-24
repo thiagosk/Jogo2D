@@ -12,7 +12,7 @@ using UnityEngine;
         memoria.profundo = 1; 
 
         // Player
-        memoria.playerSpeed=3f;
+        memoria.playerSpeed=5f;
         memoria.playerLife=3;
         memoria.playerNumOfHearts=3; // Vida maxima
 

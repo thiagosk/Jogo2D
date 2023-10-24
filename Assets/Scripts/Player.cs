@@ -94,8 +94,13 @@ public class Player : MonoBehaviour
             memoria.playerLife = memoria.playerNumOfHearts;
             memoria.coinValue = 1;
             memoria.profundo = 1;
+            memoria.bossExist = 1;
         }
-        else if (scene.name == "DungeBoss")
+        else if (scene.name == "QuartoA" || scene.name == "QuartoB" || scene.name == "QuartoC")
+        {
+            memoria.bossExist = 1;
+        }
+        else if (scene.name == "QuartoE")
         {
             memoria.coinValue = 20;
         }
@@ -105,6 +110,11 @@ public class Player : MonoBehaviour
         CoinLogic();
 
         PortalNumEnemy();
+
+        if (memoria.playerLife <= 0)
+        {
+            SceneManager.LoadScene(6);
+        }
         
     }
 
