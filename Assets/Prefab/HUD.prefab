@@ -2905,6 +2905,10 @@ PrefabInstance:
       value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 235059885548566749, guid: 8bc07dfc3d445394b83341638d93c637, type: 3}
+      propertyPath: m_SortingLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 235059885548566749, guid: 8bc07dfc3d445394b83341638d93c637, type: 3}
       propertyPath: m_SortingOrder
       value: 1
       objectReference: {fileID: 0}
@@ -2952,6 +2956,10 @@ PrefabInstance:
       propertyPath: hearts.Array.data[6]
       value: 
       objectReference: {fileID: 2862761128329129497}
+    - target: {fileID: 4206641573838537704, guid: 8bc07dfc3d445394b83341638d93c637, type: 3}
+      propertyPath: m_SortingLayer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4206641573838537704, guid: 8bc07dfc3d445394b83341638d93c637, type: 3}
       propertyPath: m_SortingOrder
       value: 1
@@ -3006,6 +3014,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7221143337233894984, guid: 8bc07dfc3d445394b83341638d93c637, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8365142321957211285, guid: 8bc07dfc3d445394b83341638d93c637, type: 3}
+      propertyPath: m_SortingLayer
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []

@@ -14,13 +14,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   profundo: 1
   playerSpeed: 5
-  playerLife: 3
+  playerLife: 0
   playerNumOfHearts: 3
-  coin: 60
+  coin: 0
   coinValue: 1
-  attackDamage: 2
-  hasBow: 1
+  attackDamage: 1
+  hasBow: 0
   casaNivel: 1
-  numEnemies: 4
-  armaNivel: 3
+  numEnemies: 1
+  armaNivel: 0
   bossExist: 1
